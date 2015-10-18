@@ -1,0 +1,44 @@
+[ 2015-10-11T14:36:07+08:00 ] ::1 /iocms/index.php/Admin/nav/edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003004s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `io_nav` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `io_nav_cat` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `io_nav` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `io_nav` SET `cid`='1',`parentid`='2',`label`='服务器端',`href`='a:2:{s:6:\"action\";s:17:\"Portal/List/index\";s:5:\"param\";a:1:{s:2:\"id\";s:1:\"2\";}}',`target`='',`icon`='',`status`='1',`path`='0-2-7' WHERE `id` = 7 [ RunTime:0.0006s ]
+
+[ 2015-10-11T16:59:23+08:00 ] ::1 /iocms/index.php/Admin/slide/add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004204s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `io_slide` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `io_slide_cat` [ RunTime:0.0059s ]
+SQL: INSERT INTO `io_slide` (`slide_pic`,`slide_cid`,`slide_name`,`slide_url`,`slide_des`,`slide_content`) VALUES ('','0','DEMO','Q','QQ','QQ') [ RunTime:0.0009s ]
+
+[ 2015-10-11T17:00:17+08:00 ] ::1 /iocms/index.php/Admin/slidecat/add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007713s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `io_slide_cat` [ RunTime:0.0054s ]
+SQL: INSERT INTO `io_slide_cat` (`cat_name`,`cat_idname`,`cat_remark`) VALUES ('DEMO','portal_index','') [ RunTime:0.0009s ]
+
+[ 2015-10-11T17:00:53+08:00 ] ::1 /iocms/index.php/Admin/slide/edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003711s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `io_slide` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `io_slide_cat` [ RunTime:0.0054s ]
+SQL: UPDATE `io_slide` SET `slide_pic`='/iocms/data/upload/561a25393586d.jpg',`slide_cid`='0',`slide_name`='DEMO',`slide_url`='Q',`slide_des`='QQ',`slide_content`='QQ' WHERE `slide_id` = '1' [ RunTime:0.0008s ]
+

@@ -1,0 +1,29 @@
+[ 2015-10-11T16:57:23+08:00 ] ::1 /iocms/index.php/api/guestbook/addmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002461s ]
+SQL: SHOW COLUMNS FROM `io_guestbook` [ RunTime:0.0324s ]
+
+[ 2015-10-11T16:57:41+08:00 ] ::1 /iocms/index.php/api/guestbook/addmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+SQL: SHOW COLUMNS FROM `io_guestbook` [ RunTime:0.0051s ]
+
+[ 2015-10-11T16:57:47+08:00 ] ::1 /iocms/index.php/api/guestbook/addmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003856s ]
+SQL: SHOW COLUMNS FROM `io_guestbook` [ RunTime:0.0061s ]
+
+[ 2015-10-11T16:57:55+08:00 ] ::1 /iocms/index.php/api/guestbook/addmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002698s ]
+SQL: SHOW COLUMNS FROM `io_guestbook` [ RunTime:0.0070s ]
+SQL: INSERT INTO `io_guestbook` (`full_name`,`email`,`msg`,`createtime`) VALUES ('qw ','qwe@qq.com','qqw','2015-10-11 16:57:55') [ RunTime:0.0009s ]
+

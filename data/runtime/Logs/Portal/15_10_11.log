@@ -1,0 +1,161 @@
+[ 2015-10-11T14:35:52+08:00 ] ::1 /iocms/index.php/AdminTerm/edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002945s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `io_terms` [ RunTime:0.0039s ]
+SQL: UPDATE `io_terms` SET `parent`='0',`name`='服务器端',`description`='',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='list_masonry',`one_tpl`='article' WHERE `term_id` = '2' [ RunTime:0.0008s ]
+SQL: UPDATE `io_terms` SET `path`='0-2' WHERE ( term_id=2 ) [ RunTime:0.0005s ]
+
+[ 2015-10-11T14:37:04+08:00 ] ::1 /iocms/index.php/AdminPost/add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002804s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `io_posts` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `io_terms` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `io_term_relationships` [ RunTime:0.0039s ]
+SQL: INSERT INTO `io_posts` (`post_modified`,`post_status`,`istop`,`recommended`,`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2015-10-11 14:36:26','1','1','1','我','收到货','空间会受到分开','客户端是','<h1 label=\"标题居左\" style=\"font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid; padding: 0px 4px 0px 0px; text-align: center; margin: 0px 0px 10px;\">撒搞定尽快转给大家&nbsp;<br/></h1><p style=\"text-align: center;\"><br/></p>','2015-10-11 14:37:04','1','{\"thumb\":\"\"}') [ RunTime:0.0009s ]
+SQL: INSERT INTO `io_term_relationships` (`term_id`,`object_id`) VALUES ('2','6') [ RunTime:0.0005s ]
+
+[ 2015-10-11T14:38:53+08:00 ] ::1 /iocms/index.php/AdminTerm/edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003134s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `io_terms` [ RunTime:0.0040s ]
+SQL: UPDATE `io_terms` SET `parent`='0',`name`='服务器端',`description`='',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='list',`one_tpl`='article' WHERE `term_id` = '2' [ RunTime:0.0007s ]
+SQL: UPDATE `io_terms` SET `path`='0-2' WHERE ( term_id=2 ) [ RunTime:0.0004s ]
+
+[ 2015-10-11T14:39:36+08:00 ] ::1 /iocms/index.php/AdminPost/add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002799s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `io_posts` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `io_terms` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `io_term_relationships` [ RunTime:0.0040s ]
+SQL: INSERT INTO `io_posts` (`post_modified`,`post_status`,`istop`,`recommended`,`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2015-10-11 14:39:23','1','0','0','是放大','是放大','是放大','是放大是放大是放大','<p>是放大是放大是放大是放大</p>','2015-10-11 14:39:36','1','{\"thumb\":\"\"}') [ RunTime:0.0007s ]
+SQL: INSERT INTO `io_term_relationships` (`term_id`,`object_id`) VALUES ('2','7') [ RunTime:0.0005s ]
+
+[ 2015-10-11T14:39:51+08:00 ] ::1 /iocms/index.php/AdminPost/add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004487s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `io_posts` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `io_terms` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `io_term_relationships` [ RunTime:0.0035s ]
+SQL: INSERT INTO `io_posts` (`post_modified`,`post_status`,`istop`,`recommended`,`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2015-10-11 14:39:37','1','0','0','撒','去为','是发','撒旦发呆','<p>发撒发生的</p>','2015-10-11 14:39:51','1','{\"thumb\":\"\"}') [ RunTime:0.0006s ]
+SQL: INSERT INTO `io_term_relationships` (`term_id`,`object_id`) VALUES ('2','8') [ RunTime:0.0005s ]
+
+[ 2015-10-11T14:40:07+08:00 ] ::1 /iocms/index.php/AdminPost/add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `io_posts` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `io_terms` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `io_term_relationships` [ RunTime:0.0036s ]
+SQL: INSERT INTO `io_posts` (`post_modified`,`post_status`,`istop`,`recommended`,`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2015-10-11 14:39:54','1','0','0','手动阀','撒旦地方','好久','官方机房','<p>电话&nbsp;</p>','2015-10-11 14:40:07','1','{\"thumb\":\"\"}') [ RunTime:0.0007s ]
+SQL: INSERT INTO `io_term_relationships` (`term_id`,`object_id`) VALUES ('2','9') [ RunTime:0.0005s ]
+
+[ 2015-10-11T14:40:37+08:00 ] ::1 /iocms/index.php/AdminPost/top/top/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `io_posts` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `io_terms` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `io_term_relationships` [ RunTime:0.0041s ]
+SQL: SELECT `object_id` FROM `io_term_relationships` WHERE ( tid in (7) )  [ RunTime:0.0006s ]
+SQL: UPDATE `io_posts` SET `istop`='1' WHERE ( id in (9) ) [ RunTime:0.0006s ]
+
+[ 2015-10-11T14:40:45+08:00 ] ::1 /iocms/index.php/AdminPost/top/top/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002962s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `io_posts` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `io_terms` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `io_term_relationships` [ RunTime:0.0039s ]
+SQL: SELECT `object_id` FROM `io_term_relationships` WHERE ( tid in (5) )  [ RunTime:0.0005s ]
+SQL: UPDATE `io_posts` SET `istop`='1' WHERE ( id in (7) ) [ RunTime:0.0005s ]
+
+[ 2015-10-11T14:40:52+08:00 ] ::1 /iocms/index.php/article/do_like/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002361s ]
+
+[ 2015-10-11T14:41:04+08:00 ] ::1 /iocms/index.php/AdminPost/recommend/recommend/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002336s ]
+SQL: SHOW COLUMNS FROM `io_users` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `io_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `io_posts` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `io_terms` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `io_term_relationships` [ RunTime:0.0040s ]
+SQL: SELECT `object_id` FROM `io_term_relationships` WHERE ( tid in (4) )  [ RunTime:0.0005s ]
+SQL: UPDATE `io_posts` SET `recommended`='1' WHERE ( id in (6) ) [ RunTime:0.0005s ]
+
+[ 2015-10-11T15:54:48+08:00 ] ::1 /iocms/index.php/Home/id/
+ERR: 无法加载控制器:Home
+
+[ 2015-10-11T15:54:52+08:00 ] ::1 /iocms/index.php/Home/id/
+ERR: 无法加载控制器:Home
+
+[ 2015-10-11T16:06:54+08:00 ] ::1 /iocms/tpl/simplebootx/Public/simpleboot/bootstrap/css/bootstrap.min.css
+ERR: 无法加载控制器:Tpl
+
+[ 2015-10-11T16:07:36+08:00 ] ::1 /iocms/tpl/simplebootx/Public/simpleboot/bootstrap/css/bootstrap.min.css
+ERR: 无法加载控制器:Tpl
+
+[ 2015-10-11T16:07:41+08:00 ] ::1 /iocms/tpl/simplebootx/Public/simpleboot/bootstrap/css/bootstrap.min.css
+ERR: 无法加载控制器:Tpl
+
+[ 2015-10-11T16:09:48+08:00 ] ::1 /iocms/tpl/simplebootx/Public/simpleboot/bootstrap/css/bootstrap.min.css
+ERR: 无法加载控制器:Tpl
+
+[ 2015-10-11T16:09:55+08:00 ] ::1 /iocms/tpl/simplebootx/Public/simpleboot/bootstrap/css/bootstrap.min.css
+ERR: 无法加载控制器:Tpl
+
+[ 2015-10-11T16:12:54+08:00 ] ::1 /iocms/tpl/simplebootx/Public/simpleboot/bootstrap/css/bootstrap.min.css
+ERR: 无法加载控制器:Tpl
+
+[ 2015-10-11T16:13:08+08:00 ] ::1 /iocms/tpl/simplebootx/Public/simpleboot/bootstrap/css/bootstrap.min.css
+ERR: 无法加载控制器:Tpl
+
+[ 2015-10-11T16:13:46+08:00 ] ::1 /iocms/tpl/simplebootx/Public/simpleboot/bootstrap/css/bootstrap.min.css
+ERR: 无法加载控制器:Tpl
+
+[ 2015-10-11T16:15:05+08:00 ] ::1 /iocms/index.php/simpleboot/bootstrap/css/bootstrap.min.css
+ERR: 无法加载控制器:Simpleboot
+
+[ 2015-10-11T16:15:16+08:00 ] ::1 /iocms/simpleboot/bootstrap/css/bootstrap.min.css
+ERR: 无法加载控制器:Simpleboot
+
+[ 2015-10-11T16:17:42+08:00 ] ::1 /iocms/index.php/Home/id/
+ERR: 无法加载控制器:Home
+
+[ 2015-10-11T16:24:27+08:00 ] ::1 /iocms/index.php/Home/id/
+ERR: 无法加载控制器:Home
+

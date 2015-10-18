@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{$site_seo_title} {$site_name}</title>
+    <meta name="keywords" content="{$site_seo_keywords}" />
+    <meta name="description" content="{$site_seo_description}">
+    <tc_include file="Public:head" />
+    <!--<link href="__TMPL__Public/css/slippry/slippry.css" rel="stylesheet">-->
+    <link href="__ROOT__/statics/simpleboot/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        .collapse{
+            display: inherit;
+        }
+        .left_banner{
+            min-height: 100px;
+            width: 100%;
+        }
+        .map_box{
+            margin-top: 2%;
+            width: 100%;
+            /* display: flex;
+             flex-direction:row ;*/
+        }
+        .sim_box{
+            height: 250px;
+            padding: 10px;
+            display: inherit;
+            /*width: 20%;*/
+
+
+
+        }
+        .full{
+            height: 100%;
+            width: 100%;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow:  0 0 18px -6px rgba(0,0,0,0.6);
+            cursor: pointer;
+        }
+        .sim_img_link{
+            display: block;
+            height: 75%;
+            width: 100%;
+        }
+        .sim_img{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            top: 0;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            -webkit-transition: all 0.5s ;
+        }
+        .sim_img_link:hover>.sim_img{
+            width: 40%;
+            height: 40%;
+            position: relative;
+            top: 30%;
+        }
+        .sim_footbox{
+            height: 25%;
+            width: 100%;
+            background: #F5F5F5;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .sim_span_title{
+            display: block;
+            height: 55%;
+            width: 100%;
+            overflow: hidden;
+            line-height: 160%;
+            text-align: center;
+            position: relative;
+            font-size: 14px;
+        }
+        .sim_span_foot{
+            height: 45%;
+            width: 100%;
+            display: block;
+            margin: 0 5px;
+            line-height:140%;
+            position: relative;
+            border-top:1px dashed #cccccc;
+            font-size: 10px;
+            color: #969191;
+        }
+        .marklabel{
+            line-height: 3.2;
+            cursor: pointer;
+            padding: 10px;
+            background: #cccccc;
+            height: 20px;
+
+        }
+        .marklabel:hover{
+            background: #00CC33;
+        }
+    </style>
+</head>
+<body class="body-white">
+<tc_include file="Public:nav" />
+
+<div class="container">
+    <div class=" map_box row" style=" min-height: 300px; ">
+
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3  sim_box">
+            <div class="full">
+                <a href="__APP__/Home/id/222" class="sim_img_link">
+                    <img src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="sim_img"/>
+                </a>
+                <div class="sim_footbox">
+                    <div class="sim_span_title">websimple案例展示</div>
+                    <div class="sim_span_foot">
+                        <span>点击(1002)</span>
+                        <span>评论(120)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+</div>
+<tc_include file="Public:footer"/>
+
+<tc_include file="Public:scripts"/>
+
+{:hook('footer_end')}
+</body>
+</html>
