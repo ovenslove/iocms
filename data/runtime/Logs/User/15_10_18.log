@@ -852,3 +852,45 @@ INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001519s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.003585s ]
 NOTIC: [8] Undefined index: url E:\wamp\www\iocms\application\Common\Controller\AppframeController.class.php 第 43 行.
 
+[ 2015-10-18T22:00:12+08:00 ] ::1 /iocms/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005459s ]
+NOTIC: [8] Undefined index: url E:\wamp\www\iocms\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-10-18T22:00:14+08:00 ] ::1 /iocms/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003950s ]
+NOTIC: [8] Undefined index: url E:\wamp\www\iocms\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-10-18T22:03:13+08:00 ] ::1 /iocms/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004779s ]
+NOTIC: [8] Undefined index: url E:\wamp\www\iocms\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-10-18T22:13:04+08:00 ] ::1 /iocms/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003307s ]
+NOTIC: [8] Undefined index: url E:\wamp\www\iocms\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-10-18T22:13:21+08:00 ] ::1 /iocms/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002657s ]
+NOTIC: [8] Undefined index: url E:\wamp\www\iocms\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-10-18T22:13:23+08:00 ] ::1 /iocms/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003128s ]
+NOTIC: [8] Undefined index: url E:\wamp\www\iocms\application\Common\Controller\AppframeController.class.php 第 43 行.
+
